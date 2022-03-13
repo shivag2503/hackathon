@@ -1,0 +1,8 @@
+Pro-tip: The participants are required to perform feature engineering to first roll-up the train data at postcode level and create a column as 
+         “accident_risk_index” and optimize the model against postcode level.
+
+Few Hypothesis to help you think: "More accidents happen in the later part of the day as those are office hours causing congestion"
+
+								  "Postal codes with more single carriage roads have more accidents"
+
+(***In the above hypothesis features such as office_hours_flag and #single _carriage roads can be formed)
